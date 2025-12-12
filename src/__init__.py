@@ -1,4 +1,5 @@
 from src.logistic_regression import LogisticRegression
+from src.decision_tree import CARTDecisionTree
 from src.utils import (
     train_test_split,
     standardize,
@@ -9,7 +10,7 @@ from src.utils import (
 )
 
 __all__ = [
-    'C45DecisionTree',
+    'CARTDecisionTree',
     'LogisticRegression',
     'train_test_split',
     'standardize',
