@@ -1,4 +1,3 @@
-from src.decision_tree import C45DecisionTree
 from src.logistic_regression import LogisticRegression
 from src.utils import (
     train_test_split,
